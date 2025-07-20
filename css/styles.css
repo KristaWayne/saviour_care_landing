@@ -1,0 +1,98 @@
+/* colors */
+/* headers-color #462E6A */
+/* nav-text-color #7D7987 */
+/* nav-hover-color #2E4E92 */
+/* main-header-color #3C567B */
+/* main-paragraph-color #93C1F9 */
+/* button-color #458FF6 */
+/* paragraphs-color #7D7987 */
+/* footer-text-colo #fff */
+/* header-text-cards #000 */
+:root {
+    --headers-and-logo-color:  #462E6A;
+    --nav-text-and-paragraphs-color: #7D7987;
+    --nav-hover-color: #2E4E92;
+    --main-header-color: #3C567B;
+    --main-paragraph-color: #93C1F9;
+    --accent-button-color: #458FF6;
+    --footer-text-color: #fff;
+    --button-color: #fff;
+    --header-text-cards: #000;
+    --test-background: #5B9BF3;
+
+}
+ul {
+    list-style: none;
+}
+/* колір тексту лого */
+.logo-text {
+    color: var(--headers-and-logo-color);
+    text-decoration: none;
+}
+/* колір і інтерактивність навігації */
+.site-nav a{
+    color: var(--nav-text-and-paragraphs-color);
+    text-decoration: none;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--nav-hover-color);
+    text-decoration: underline;
+}
+/*головний банер*/
+.main-header {
+    color: var(--main-header-color);
+}
+.main-paragraph {
+    color: var(--main-paragraph-color);
+}
+
+.main-button {
+   color: var(--button-color);
+   background-color: var(--accent-button-color);
+   border: 1px solid var(--accent-button-color);
+   border-radius: 55px;
+}
+
+    /* колір заголовків 4х секцій */
+    .section-title {
+        color: var(--headers-and-logo-color);
+    }
+    /* колір параграфів 4х секцій */
+    .section-text{
+    color: var(--nav-text-and-paragraphs-color);
+    }
+     /* кнопки 4х секцій */
+    .section-button {
+        background-color: var(--button-color);
+        color: var(--accent-button-color);
+        border: 1px solid var(--accent-button-color);
+        border-radius: 55px;
+    }
+    /* заголовки в карточках */
+    .services-h3{
+    color: var(--header-text-cards);
+    }
+    /* колір параграфів в карточках */
+    .services p{
+        color: var(--nav-text-and-paragraphs-color);
+    }
+   /* секція з відгуками, фон карточки пробний */
+   .testimonials {
+    background-color: var(--test-background);
+    color: var(--footer-text-color);
+   }
+   .testimonials-h3 {
+    color: var(--footer-text-color);
+   }
+   /* футер, колір фону тестовий*/
+    footer, footer a {
+    background-color: var(--test-background) ;
+    color: var(--footer-text-color);
+    text-decoration: none;
+    }
+    .footer-links a:hover, 
+    .footer-links a:focus {
+    color: var(--footer-text-color);
+    text-decoration: underline; 
+    }
