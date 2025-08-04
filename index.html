@@ -19,46 +19,50 @@
   <body>
     <!--Header-->
     <header>
-      <nav class="container">
-        <img src="./images/logo.jpg" alt="letter s" width="29" height="27" />
+      <nav class="container main-nav">
+        <a href="./"><img src="./images/logo.jpg" alt="letter s" width="29" height="27" /></a>
         <a class="logo-text" href="./">Saviour Care</a>
         <ul class="site-nav">
-          <li><a href="">Home</a></li>
-          <li><a href="">Find a doctor</a></li>
-          <li><a href="">Apps</a></li>
-          <li><a href="">Testimonials</a></li>
-          <li><a href="">About us</a></li>
+          <li class="item"><a href="">Home</a></li>
+          <li class="item"><a href="">Find a doctor</a></li>
+          <li class="item"><a href="">Apps</a></li>
+          <li class="item"><a href="">Testimonials</a></li>
+          <li class="item"><a href="">About us</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <!--Main banner-->
       <section>
-        <div class="container">
-          <h1 class="main-header">Virtual healthcare Saviour for you</h1>
-          <p class="main-paragraph">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
-          </p>
-          <button type="button" class="main-button">Consult today</button>
-          <img
-            src="./images/main-img.jpg"
-            alt="polite doctor and medicine items"
-            width="769"
-            height="554"
-          />
+        <div class="main-banner">
+          <div class="banner-text">
+            <h1 class="main-header">Virtual healthcare Saviour for you</h1>
+            <p class="main-paragraph">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+              commodo ligula eget dolor. Aenean massa.
+            </p>
+            <button type="button" class="main-button">Consult today</button>
+          </div>
+          <div class="banner-img">
+            <img
+              src="./images/main-img.jpg"
+              alt="polite doctor and medicine items"
+              width="769"
+              height="554"
+            />
+          </div>
         </div>
       </section>
       <!--Our services-->
       <section class="services">
         <div class="container">
-          <h2 class="section-title title">Services we Offer</h2>
-          <p class="section-text text">
+          <h2 class="section-title services-title">Services we Offer</h2>
+          <p class="section-text services-text">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
             commodo ligula eget dolor. Aenean massa.
           </p>
-          <ul>
-            <li>
+          <ul class="container-cards">
+            <li class="item">
               <img
                 src="./images/1card.jpg"
                 alt="dandruff"
@@ -71,7 +75,7 @@
                 trusted hospitals
               </p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/2card.jpg"
                 alt="medicine bottle"
@@ -84,7 +88,7 @@
                 delivery system
               </p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/3card.jpg"
                 alt="phone"
@@ -97,7 +101,7 @@
                 recomendations
               </p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/4card.jpg"
                 alt="questionnaire tablet"
@@ -110,7 +114,7 @@
                 recomendations
               </p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/5card.jpg"
                 alt="first aid kit"
@@ -123,7 +127,7 @@
                 recomendations
               </p>
             </li>
-            <li>
+            <li class="item">
               <img
                 src="./images/6card.jpg"
                 alt="tablet with info"
@@ -136,31 +140,37 @@
               </p>
             </li>
           </ul>
-          <button type="button" class="section-button">Learn more</button>
+          <button type="button" class="section-button services-button">
+            Learn more
+          </button>
         </div>
       </section>
       <!--Healthcare providers-->
       <section class="healthcare">
-        <div class="container">
-          <img
-            src="./images/leading_healthcare_providers.jpg"
-            alt="woman sitting during a medical examination"
-            width="665"
-            height="491"
-          />
-          <h2 class="section-title title">Leading healthcare providers</h2>
-          <p class="section-text">
-            Trafalgar provides progressive, and affordable healthcare,
-            accessible on mobile and online for everyone. To us, it&rsquo;s not
-            just work. We take pride in the solutions we deliver
-          </p>
-          <button type="button" class="section-button">Learn more</button>
+        <div class="container healthcare-container">
+          <div class="healthcare-img">
+            <img
+              src="./images/leading_healthcare_providers.jpg"
+              alt="woman sitting during a medical examination"
+              width="665"
+              height="491"
+            />
+          </div>
+          <div class="healthcare-text">
+            <h2 class="section-title title">Leading healthcare providers</h2>
+            <p class="section-text">
+              Trafalgar provides progressive, and affordable healthcare,
+              accessible on mobile and online for everyone. To us, it&rsquo;s
+              not just work. We take pride in the solutions we deliver
+            </p>
+            <button type="button" class="section-button">Learn more</button>
+          </div>
         </div>
       </section>
       <!--Mobile app-->
       <section class="mobileapp">
-        <div class="container">
-          <h2 class="section-title title">
+        <div class="container mobileapp-container">
+        <div class="mobileapp-text"><h2 class="section-title title">
             Download our Saviour Care mobile app
           </h2>
           <p class="section-text">
@@ -174,86 +184,86 @@
               alt="down arrow"
               width="15"
             /></span>
-          </button>
+        </div>
+        <div class="mobileapp-img"><img src="./images/image 5.jpg" alt="dialogue with pacient and doctor" width="626" height="463"></div>
         </div>
       </section>
       <!--Find doctor-->
       <section class="find">
-        <div class="container">
-          <img
+        <div class="container find-container">
+          <div class=" find-img"><img
             src="./images/find-doctor.jpg"
             alt="woman find a doctor"
             width="665"
             height="474"
-          />
-          <h2 class="section-title title">Find a Doctor near you</h2>
+          /></div>
+          <div class="find-text"><h2 class="section-title title">Find a Doctor near you</h2>
           <p class="section-text">
             Our app and web portal allows you to find the doctor to your nearest
             location.
           </p>
-          <button type="button" class="section-button">Find now</button>
+          <button type="button" class="section-button">Find now</button></div>
         </div>
       </section>
       <!--Testimonials-->
       <section class="testimonials">
-        <div class="container">
-          <h2 class="title">What our customers are saying</h2>
-          <img
+        <div class="container testimonials-container">
+          <h2 class="testimonials-title">What our customers are saying</h2>
+         <div class="testimonials-card"><div class="avatar-user"><img
             src="./images/customer.jpg"
             alt="customer avatar"
             width="113"
             height="87"
-          />
-          <h3 class="testimonials-h3">AK</h3>
-          <p class="name">Abc ltd</p>
-          <p class="text">
+          /></div>
+          <div class="avatar-name"><h3 class="testimonials-h3">AK</h3>
+          <p class="name">Abc ltd</p></div>
+          <div class="testimonials-text"><p class="text">
             &ldquo;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor. Aenean massa.&rdquo;
-          </p>
+          </p></div></div> 
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-        <section>
-        <img src="./images/logo.jpg" alt="letter s" width="29" height="27" />
-          <a href="./" class="footer-logo">Saviour Care</a>
-          <p class="text">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-            commodo ligula eget dolor. Aenean massa.
-          </p>
-          <p class="copyright">&#169;AK PVT LTD 2 021. All rights reserved</p>
-        </section>
-        <ul>
-          <li>
-            <h3>Company</h3>
-            <ul class="footer-links">
-              <li><a href="">About</a></li>
-              <li><a href="">Testimonials</a></li>
-              <li><a href="">Find a doctor</a></li>
-              <li><a href="">Apps</a></li>
-            </ul>
-          </li>
-          <li>
-            <h3>Region</h3>
-            <ul class="footer-links">
-              <li><a href="">link</a></li>
-              <li><a href="">link</a></li>
-              <li><a href="">link</a></li>
-              <li><a href="">link</a></li>
-            </ul>
-          </li>
-          <li>
-            <h3>Help</h3>
-            <ul class="footer-links">
-              <li><a href="">Help center</a></li>
-              <li><a href="">Contact support</a></li>
-              <li><a href="">Instructions</a></li>
-              <li><a href="">How it works</a></li>
-            </ul>
-          </li>
+  <div class="container footer-container">
+    <section class="logo-section">
+      <a href="./"><img src="./images/logo.jpg" alt="letter s" width="29" height="27" /></a>
+      <a href="./" class="footer-logo">Saviour Care</a>
+      <p class="text">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+      </p>
+      <p class="copyright">&#169; AK PVT LTD 2021. All rights reserved</p>
+    </section>
+    <ul class="footer-columns">
+      <li>
+        <h3>Company</h3>
+        <ul class="footer-links">
+          <li><a href="">About</a></li>
+          <li><a href="">Testimonials</a></li>
+          <li><a href="">Find a doctor</a></li>
+          <li><a href="">Apps</a></li>
         </ul>
-      </div>
-    </footer>
+      </li>
+      <li>
+        <h3>Region</h3>
+        <ul class="footer-links">
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </li>
+      <li>
+        <h3>Help</h3>
+        <ul class="footer-links">
+          <li><a href="">Help center</a></li>
+          <li><a href="">Contact support</a></li>
+          <li><a href="">Instructions</a></li>
+          <li><a href="">How it works</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</footer>
   </body>
 </html>
